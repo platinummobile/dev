@@ -11,7 +11,7 @@
                    <key>kind</key>
                    <string>software-package</string>
                    <key>url</key>
-                   <string>http://raw.githubusercontent.com/platinummobile/dev/master/PlatinumMobile.ipa</string>
+                   <string>http://raw.githubusercontent.com/platinummobile/dev/master/platinummobile.ipa</string>
                </dict>
                <dict>
                    <key>kind</key>
