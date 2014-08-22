@@ -33,17 +33,17 @@ body {
        install = function() 
        {
 	       	if(gte_ios71()){
-	            location.href = 'itms-services://?action=download-manifest&url=https://git.oschina.net/jbtcc/PlatinumMobile/raw/master/manifest2.plist';
+	            location.href = 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/platinummobile/dev/master/manifest2.plist';
 	       	}
 	       	else
 	       	{
-	       		location.href = 'itms-services://?action=download-manifest&url=http://git.oschina.net/jbtcc/PlatinumMobile/raw/master/manifest.plist';
+	       		location.href = 'itms-services://?action=download-manifest&url=http://raw.githubusercontent.com/platinummobile/dev/master/manifest.plist';
 	       	}
        }
 
        install2=function()
        {
-       		location.href = 'http://git.oschina.net/jbtcc/PlatinumMobile/raw/master/platinummobile.apk';
+       		location.href = 'https://raw.githubusercontent.com/platinummobile/dev/master/platinummobile.apk';
        }
  </script>
     

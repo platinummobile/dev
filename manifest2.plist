@@ -11,7 +11,7 @@
                    <key>kind</key>
                    <string>software-package</string>
                    <key>url</key>
-                   <string>https://git.oschina.net/jbtcc/PlatinumMobile/raw/master/PlatinumMobile.ipa</string>
+                   <string>https://raw.githubusercontent.com/platinummobile/dev/master/PlatinumMobile.ipa</string>
                </dict>
                <dict>
                    <key>kind</key>
@@ -19,7 +19,7 @@
                    <key>needs-shine</key>
                    <true/>
                    <key>url</key>
-                   <string>https://git.oschina.net/jbtcc/PlatinumMobile/raw/master/platinum.png</string>
+                   <string>https://raw.githubusercontent.com/platinummobile/dev/master/platinum.png</string>
                </dict>
            </array><key>metadata</key>
            <dict>
