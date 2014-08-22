@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta name = "viewport" content = "initial-scale = 0.8"> 
+<title>
+</title>
+     
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+<!--
+body {
+	background-color: #317BE6;
+}
+-->
+</style></head>
+<body>
+<BR /><BR /><BR /><BR /><BR />
+<center>
+ <span onclick="install();"><img src="InstallApple.png" width="217" height="59" /></span><BR/>
+ <span onclick="install2();"><img src="InstallAndroid.png" width="217" height="59" /></span>
+ </center>
+</body>
+<script language='JavaScript'>
+		function gte_ios71() {
+		    if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)  || navigator.userAgent.match(/iPad/i)) {
+
+		        return Boolean(navigator.userAgent.match(/OS [7-9]_[1-9][_\d]* like Mac OS X/i));
+		    } 
+		    else {
+		        return false;
+		    }
+		}
+
+       install = function() 
+       {
+	       	if(gte_ios71()){
+	            location.href = 'itms-services://?action=download-manifest&url=https://git.oschina.net/jbtcc/PlatinumMobile/raw/master/manifest2.plist';
+	       	}
+	       	else
+	       	{
+	       		location.href = 'itms-services://?action=download-manifest&url=http://git.oschina.net/jbtcc/PlatinumMobile/raw/master/manifest.plist';
+	       	}
+       }
+
+       install2=function()
+       {
+       		location.href = 'http://git.oschina.net/jbtcc/PlatinumMobile/raw/master/platinummobile.apk';
+       }
+ </script>
+    
+</html>
